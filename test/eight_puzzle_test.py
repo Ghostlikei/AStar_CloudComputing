@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import pytest
-from algorithm.astar import your_function  # Import functions from your algorithm
+from algorithm.astar import Puzzle  # Import functions from your algorithm
 
 # TODO: Define your test cases here
 

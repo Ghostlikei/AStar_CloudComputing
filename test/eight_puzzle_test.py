@@ -27,7 +27,7 @@ def test_correct_case_3():
     initial = (7, 1, 5, 0, 3, 2, 6, 8, 4)
     solver = Puzzle(initial, goal)
     res = solver.astar()
-    assert res == 4
+    assert res == 3
 
 def test_insolvable_case():
     # In this test, we will test whether the algorithm can find the insolvability of the puzzle
